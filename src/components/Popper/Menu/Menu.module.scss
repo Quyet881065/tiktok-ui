@@ -7,6 +7,9 @@
 .menu-propper{
     padding-top: 8px;
 }
+.menu-body{
+  overflow-y: auto;
+}
 
 .menu-item{
     width: 100%;
@@ -26,6 +29,7 @@
   position: relative;
   height: 50px;
   margin-top: -8px;
+  flex-shrink: 0;
 }
 .back-btn{
    width: 50px;
